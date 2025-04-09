@@ -9,7 +9,7 @@ setup(
     author_email='peter.hanappe@sony.com',
     license='LGPL v2.1',
     packages=['romiserial'],
-    install_requires=['crc8'],
+    install_requires=['pyserial', 'crc8'],
 
     classifiers=[
         'Development Status :: 4 - Beta',
