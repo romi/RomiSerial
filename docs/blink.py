@@ -3,7 +3,7 @@ sys.path.append('../python')
 
 import time
 import argparse
-from romi_device import RomiDevice
+from romiserial import RomiDevice
 
 remoteDevice = None
 

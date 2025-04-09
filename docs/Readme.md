@@ -20,7 +20,7 @@ Arduino IDE in the menu `File` > `Examples` > `01.Basics`.
 
 ## Requirements
 
-The file `romi_device.py` requires the `crc8` module that can be
+The file `romiserial.py` requires the `crc8` module that can be
 installed as follows:
 
 ```
@@ -39,7 +39,7 @@ sys.path.append('../python')
 
 import time
 import argparse
-from romi_device import RomiDevice
+from romiserial import RomiDevice
 
 remoteDevice = False
 
@@ -110,7 +110,7 @@ We will go over the code above, step by step.
 
 The first two lines of the Python code make sure that you can run the
 example code from within the docs directory. If you installed the
-[romi_device.py](../python/romi_device.py) file in your code
+[romiserial.py](../python/romiserial.py) file in your code
 directory, you will not need this.
 
 ```python
@@ -123,7 +123,7 @@ lower-level functions of sending and receiving commands, and handling
 errors.
 
 ```python
-from romi_device import RomiDevice
+from romiserial import RomiDevice
 ```
 
 We will create one instance of a RomiDevice that we will store in a
@@ -469,7 +469,7 @@ sys.path.append('../python')
 
 import time
 import argparse
-from romi_device import RomiDevice
+from romiserial import RomiDevice
 
 remoteDevice = None
 
