@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "romiserial"
+version = "0.1.2"
+authors = [
+  { name="Peter Hanappe, Doug Boari", email="peter.hanappe@sony.com" },
+]
+description = "A library for serial communication (UART) with improved error detection and recovery"
+readme = "Readme.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Embedded Systems"
+]
+license = "LGPL-2.1"
+license-files = ["LICEN[CS]E*"]
+dependencies=['pyserial', 'crc8']
+
+
+[project.urls]
+Homepage = "https://github.com/romi/RomiSerial"
+

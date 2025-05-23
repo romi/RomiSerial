@@ -1,10 +1,10 @@
 """
-  romi_device.py
+  romiserial.py
 
   Copyright (C) 2019 Sony Computer Science Laboratories
   Author(s) Peter Hanappe
 
-  romi_device.py is part of the romi-rover project, a collection of 
+  romiserial.py is part of the ROMI project, a collection of 
   applications for the Romi Rover and other ROMI devices.
 
   romi-rover is free software: you can redistribute it and/or modify
