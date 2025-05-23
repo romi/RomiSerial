@@ -37,3 +37,8 @@ set(SOURCES
 )
 
 add_library(romiserial SHARED ${SOURCES})
+
+target_include_directories(romiserial
+        PUBLIC
+        "${CMAKE_CURRENT_SOURCE_DIR}"
+        )
